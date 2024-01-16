@@ -6,8 +6,27 @@ using System.Threading.Tasks;
 
 namespace Examples
 {
+    public class CodingAssistance 
+    {
+        private CodeInspector _codeInspector;
+
+        public CodingAssistance(CodeInspector codeInspector)
+        {
+            _codeInspector = codeInspector;
+        }
+
+
+    }
+
+    public class CodeInspector 
+    { 
+    
+    }
+
+
     public class CodeSnippetExamples
     {
+
         public void talk()
         {
             for (int i = 0; i < 10; i++)
